@@ -69,6 +69,10 @@ RN(React Native)プロジェクトフォルダで```ios/[project name].xcworkspa
 
 - [React Nativeにタイプスクリプト適用](https://dev-yakuza.github.io/react-native/typescript/)
 
+RN(React Native)のスタイル(styling)には```styled-components```を使ってます。RN(React Native)でstyled-componentsを使う方法については下記のブログを参考してください。
+
+- [React Nativeでstyled-components使う方法](https://dev-yakuza.github.io/react-native/styled-components/)
+
 RN(React Native)でlottieを適用する方法については下記のブログを参考してください。
 
 - [React Native에서 lottie使い方](https://dev-yakuza.github.io/react-native/react-native-lottie/)
@@ -139,6 +143,10 @@ RN(React Native) 프로젝트 폴더에서 ```ios/[project name].xcworkspace```(
 
 - [React Native에 타입스크립트 적용](https://dev-yakuza.github.io/ko/react-native/typescript/)
 
+RN(React Native)의 스타일링(styling)에는 ```styled-components```를 사용하였습니다. RN(React Native)에서 styled-components를 사용하는 방법에 대해서는 아래 블로그를 참고하시기 바랍니다.
+
+- [React Native에서 styled-components 사용하기](https://dev-yakuza.github.io/ko/react-native/styled-components/)
+
 RN(React Native)에 lottie를 적용하는 방법에 대해서는 아래의 블로그를 참고하시기 바랍니다.
 
 - [React Native에서 lottie 사용법](https://dev-yakuza.github.io/ko/react-native/react-native-lottie/)
@@ -201,16 +209,20 @@ after copying, modify the source code adding ```imageAssetsFolder={'images'}``` 
 />
 ```
 
-### 프로젝트 상세 설명
-이 프로젝트는 RN(React Native)를 사용합니다. RN(React Native) 설치에 관해서는 아래의 블로그를 참고하세요.
+### Project Details
+this project uses RN(React Native). if you want to know how to install RN(React Native), see the blog post below.
 
-- [React Native 설치 방법](https://dev-yakuza.github.io/ko/react-native/installation/)
+- [React Native installation](https://dev-yakuza.github.io/en/react-native/installation/)
 
-또한 이 저장소는 React Native에서 타입스크립트(typescript)를 사용합니다. RN(React Native)에서 타입스크립트(typescript)를 설정하는 방법에 대해서는 아래의 블로그를 참고하시기 바랍니다.
+also, this project uses typescript. if you want to know how to apply typescript to RN(React Native), see the blog post below.
 
-- [React Native에 타입스크립트 적용](https://dev-yakuza.github.io/ko/react-native/typescript/)
+- [how to use typescript in React Native](https://dev-yakuza.github.io/en/react-native/typescript/)
 
-RN(React Native)에 lottie를 적용하는 방법에 대해서는 아래의 블로그를 참고하시기 바랍니다.
+I use ```styled-components``` for styling in RN(React Native) project. if you want to know how to use styled-components in RN(React Native), see the blog post below.
 
-- [React Native에서 lottie 사용법](https://dev-yakuza.github.io/ko/react-native/react-native-lottie/)
+- [how to use styled-components in React Native](https://dev-yakuza.github.io/en/react-native/styled-components/)
+
+if you want to know how to apply lottie to RN(React Native), see the blog post below.
+
+- [how to use lottie on React Native](https://dev-yakuza.github.io/en/react-native/react-native-lottie/)
 
