@@ -9,7 +9,7 @@
     "android": "react-native run-android"
   },
   "dependencies": {
-    "lottie-react-native": "^2.5.11",
+    "lottie-react-native": "2.5.11",
     "react": "16.6.3",
     "react-native": "0.58.5",
     "styled-components": "4.1.3"
