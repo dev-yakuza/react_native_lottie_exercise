@@ -1,10 +1,11 @@
-## document
+# document
+
 - [使い方](#使い方)
 - [사용법](#사용법)
 - [how to use](#how-to-use)
 
-
 ## 使い方
+
 このリポジトリ(Repository)はRN(React Native)でイメージあるlottieアニメーションファイルを使う方法に関する例題です。
 
 プロジェクトを使うため下のコマンドでリポジトリ(Repository)をコピーします。
@@ -30,7 +31,8 @@ npm run android
 
 アニメーションを変更したい場合、```src/Assets/animations/data.json```を変更してプラットフォーム別でイメージをコピーします。
 
-### iOS
+- iOS
+
 RN(React Native)プロジェクトフォルダで```ios/[project name].xcworkspace```(または```ios/xcodeproj```)を選択してxcodeを実行します。
 
 ![lottie ios イメージ追加](https://dev-yakuza.github.io/assets/images/category/react-native/react-native-lottie/lottie_ios_image_add.png)
@@ -45,8 +47,8 @@ RN(React Native)プロジェクトフォルダで```ios/[project name].xcworkspa
 
 ![lottie ios イメージ追加 - resources グループ追加](https://dev-yakuza.github.io/assets/images/category/react-native/react-native-lottie/lottie_ios_image_add_resources_group.png)
 
+- アンドロイド
 
-### アンドロイド
 アンドロイドはiOSより簡単です。RN(React Native)プロジェクトの```android/app/src/main/assets```へアニメーションに含めてるイメージを入れるフォルダを生成します。ここでは```images```フォルダを生成しました。そしてそのフォルダにイメージをコピーします。(```android/app/src/main/assets/images```)
 
 コピーが完了したら、下のようにソースコードへ```imageAssetsFolder={'images'}```を追加します。
@@ -61,6 +63,7 @@ RN(React Native)プロジェクトフォルダで```ios/[project name].xcworkspa
 ```
 
 ### プロジェクトの説明
+
 このプロジェクトはRN(React Native)を使います。RN(React Native)のインストールに関して下記のブログを参考してください。
 
 - [React Nativeインストール](https://dev-yakuza.github.io/react-native/installation/)
@@ -77,8 +80,8 @@ RN(React Native)でlottieを適用する方法については下記のブログ�
 
 - [React Native에서 lottie使い方](https://dev-yakuza.github.io/react-native/react-native-lottie/)
 
-
 ## 사용법
+
 이 저장소(Repository)는 RN(React Native)에서 이미지가 있는 lottie 애니메이션 파일을 사용하는 방법에 대한 예제입니다.
 
 프로젝트를 사용하기 위해 아래에 명령어로 저장소(Repository)를 복사합니다.
@@ -104,7 +107,8 @@ npm run android
 
 애니메이션을 변경하여 확인하고 싶은 경우, ```src/Assets/animations/data.json```을 교체한 후, 플랫폼별로 이미지를 복사합니다.
 
-### iOS
+- iOS
+
 RN(React Native) 프로젝트 폴더에서 ```ios/[project name].xcworkspace```(또는 ```ios/xcodeproj```)를 선택하여 xcode를 실행합니다.
 
 ![lottie ios 이미지 추가](https://dev-yakuza.github.io/assets/images/category/react-native/react-native-lottie/lottie_ios_image_add.png)
@@ -119,8 +123,8 @@ RN(React Native) 프로젝트 폴더에서 ```ios/[project name].xcworkspace```(
 
 ![lottie ios 이미지 추가 - resources 그룹 추가](https://dev-yakuza.github.io/assets/images/category/react-native/react-native-lottie/lottie_ios_image_add_resources_group.png)
 
+- 안드로이드
 
-### 안드로이드
 안드로이드는 iOS보다 간단합니다. RN(React Native) 프로젝트의 ```android/app/src/main/assets```에 애니메이션에 포함된 이미지를 넣을 폴더를 생성합니다. 여기에서는 ```images``` 폴더를 생성하였습니다. 그리고 해당 폴더에 이미지를 복사합니다. (```android/app/src/main/assets/images```)
 
 복사를 완료하였다면, 아래와 같이 소스코드에 ```imageAssetsFolder={'images'}```를 추가합니다.
@@ -135,6 +139,7 @@ RN(React Native) 프로젝트 폴더에서 ```ios/[project name].xcworkspace```(
 ```
 
 ### 프로젝트 상세 설명
+
 이 프로젝트는 RN(React Native)를 사용합니다. RN(React Native) 설치에 관해서는 아래의 블로그를 참고하세요.
 
 - [React Native 설치 방법](https://dev-yakuza.github.io/ko/react-native/installation/)
@@ -151,8 +156,8 @@ RN(React Native)에 lottie를 적용하는 방법에 대해서는 아래의 블�
 
 - [React Native에서 lottie 사용법](https://dev-yakuza.github.io/ko/react-native/react-native-lottie/)
 
-
 ## how to use
+
 this repository is the example about how to use lottie with the animation file that includes images in RN(React Native).
 
 execute the command below to clone this repository.
@@ -178,8 +183,8 @@ npm run android
 
 if you want to change the animation file, change ```src/Assets/animations/data.json``` file, and copy images to the each platforms.
 
+- iOS
 
-### iOS
 execute xcode to select ```ios/[project name].xcworkspace```(or ```ios/xcodeproj```) in RN(React Native) project.
 
 ![lottie ios add images](https://dev-yakuza.github.io/assets/images/category/react-native/react-native-lottie/lottie_ios_image_add.png)
@@ -194,8 +199,8 @@ if you can't see ```Resources``` folder, right click the project name on left si
 
 ![lottie ios add images - resources add group](https://dev-yakuza.github.io/assets/images/category/react-native/react-native-lottie/lottie_ios_image_add_resources_group.png)
 
+- Android
 
-### Android
 Android is more simple than iOS. create the folder that you copy images on ```android/app/src/main/assets``` in RN(React Native) project. in here, I created ```images``` folder. and then, copy images to that folder(```android/app/src/main/assets/images```).
 
 after copying, modify the source code adding ```imageAssetsFolder={'images'}``` like below.
@@ -210,6 +215,7 @@ after copying, modify the source code adding ```imageAssetsFolder={'images'}``` 
 ```
 
 ### Project Details
+
 this project uses RN(React Native). if you want to know how to install RN(React Native), see the blog post below.
 
 - [React Native installation](https://dev-yakuza.github.io/en/react-native/installation/)
@@ -225,4 +231,3 @@ I use ```styled-components``` for styling in RN(React Native) project. if you wa
 if you want to know how to apply lottie to RN(React Native), see the blog post below.
 
 - [how to use lottie on React Native](https://dev-yakuza.github.io/en/react-native/react-native-lottie/)
-

@@ -2,7 +2,6 @@
   package="com.react_native_lottie_exercise">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 
     <application
       android:name=".MainApplication"

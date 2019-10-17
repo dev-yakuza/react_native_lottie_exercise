@@ -1,0 +1,6 @@
+module Pods_react_native_lottie_exercise {
+  umbrella header "Pods-react_native_lottie_exercise-umbrella.h"
+
+  export *
+  module * { export * }
+}
